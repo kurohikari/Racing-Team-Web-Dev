@@ -1,0 +1,14 @@
+///TO DO LATER
+
+
+class Manager {
+  singleton;
+}
+
+class Article {
+  name;
+  url;
+  author;
+  Date creationDate;
+  Time creationTime;
+}
