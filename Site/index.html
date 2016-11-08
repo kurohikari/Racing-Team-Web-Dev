@@ -1,69 +1,39 @@
-<!DOCTYPE HTML>
-
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.js"></script>
-    <script src="JS/bootstrap.js"></script>
-    <title>McGill Racing Team | FSAE</title>
+    <title>CarouselExp</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Base.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Carousel.css">
+    <script src="JS/Carousel.js"></script>
+    <script src="JS/Header.js"></script>
+    <script src="JS/Footer.js"></script>
 </head>
-
 <body>
+    <div class="carousel">
+        <div class="carousel-container">
 
-<nav class="navbar-fixed-top">
-    <ul>
-        <li><img id="logo" src="Resources/IMG/Logo.jpg"></li>
-        <li class='active'><a href="#">Home</a></li>
-        <li><a href="#">The Team</a></li>
-        <li><a href="#">Our Sponsors</a></li>
-        <li><a href="#">Become a Sponsor</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Links</a></li>
-    </ul>
-</nav>
+            <div class="carousel-prev" id="carouselPrev" onclick="prev();">
+            </div>
+            <div class="carousel-next" id="carouselNext" onclick="next();">
+            </div>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+            <div class="carousel-dot-container avail">
+                <div class="current" onclick="switchImg(0);"></div>
+                <div onclick="switchImg(1);"></div>
+                <div onclick="switchImg(2);"></div>
+            </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="Resources/IMG/home1.png" alt="Image">
-        </div>
-
-        <div class="item">
-            <img src="Resources/IMG/home2.jpg" alt="Image">
-        </div>
-
-        <div class="item">
-            <img src="Resources/IMG/home3.jpg" alt="Image">
+            <div class="img-container active">
+                <img src="Resources/IMG/home1.png">
+            </div>
+            <div class="img-container">
+                <img src="Resources/IMG/home2.jpg">
+            </div>
+            <div class="img-container">
+                <img src="Resources/IMG/home3.JPG">
+            </div>
         </div>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<footer class="container-fluid text-center">
-    &copy; McGill Racing Team
-</footer>
-
 </body>
-
 </html>
