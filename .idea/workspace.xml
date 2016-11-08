@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Carousel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Carousel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/JS/Carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="697">
+              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -137,15 +137,15 @@
         <option value="$PROJECT_DIR$/Site/CSS/bootstrap.css" />
         <option value="$PROJECT_DIR$/Site/JS/bootstrap.js" />
         <option value="$PROJECT_DIR$/Site/JS/Header.js" />
-        <option value="$PROJECT_DIR$/Site/JS/Carousel.js" />
         <option value="$PROJECT_DIR$/Site/index.html" />
         <option value="$PROJECT_DIR$/Site/CSS/Carousel.css" />
+        <option value="$PROJECT_DIR$/Site/JS/Carousel.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="119" />
+    <option name="x" value="788" />
+    <option name="y" value="95" />
     <option name="width" value="1245" />
     <option name="height" value="937" />
   </component>
@@ -569,7 +569,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="119" width="1245" height="937" extended-state="0" />
+    <frame x="788" y="95" width="1245" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -819,14 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/JS/Carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Site/CSS/Carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -837,13 +829,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/JS/Carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-window.setInterval(next, 5000);
+var interval = window.setInterval(next, 5000);
 
 function next() {
     for(i=0; i<document.querySelectorAll(".img-container").length; i++){
@@ -58,12 +58,14 @@ function switchImg(index) {
  }
 
  function start() {
+    interval = window.setInterval(next, 5000);
     document.getElementById("carouselNext").onclick = next;
     document.getElementById("carouselPrev").onclick = prev;
     document.querySelector(".carousel-dot-container").classList.add("avail")
  }
 
  function stop() {
+    window.clearInterval(interval);
     document.getElementById("carouselNext").onclick = function () {return false;};
     document.getElementById("carouselPrev").onclick = function () {return false;};
     document.querySelector(".carousel-dot-container").classList.remove("avail")
