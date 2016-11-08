@@ -1,3 +1,5 @@
+window.setInterval(next, 5000);
+
 function next() {
     for(i=0; i<document.querySelectorAll(".img-container").length; i++){
         if(document.querySelectorAll(".img-container")[i].classList.contains("active")) {
