@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Khand');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    outline : 0;
+}
+
+body {
+    background-color: rgba(240,240,240,1);
+    font-family:  'Khand', sans-serif;
+}
+header {/*
+    background-color: rgba(240,240,240, 0.5);*/  /*for carousel*/
+    background-color: rgba(80,80,80, 1);
+    font-weight: medium;
+    font-size: 24px;
+    color: rgba(255,255,255, 1);
+    box-shadow : 3px 3px 10px rgba(150,150,150, 0.6);
+    z-index: 10;
+    position : fixed;
+    width : 100%;
+}
+
+nav ul{
+    overflow: hidden;
+}
+nav ul li {
+    list-style-type : none;
+    display : block;
+
+}
+
+nav ul li a:link, a:visited{
+    color: white;
+    text-decoration : none;
+}
+
+.right{
+    float: right;
+    padding-left: 10px;
+}
+
+.cur-tab{
+    background-color: #bf4040;
+}
+/* on hover behaviour */
+.menu-tab {
+  float:left;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent; /*loading is slightly above the edge of header*/
+  padding : 10px 15px;
+}
+/*load red*/
+.menu-tab:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;/*
+   background: rgba(220,220,220, 0.6);*/ /*for carousel*/
+   background: #363a3a;
+   transform: scaleX(0);
+   transform-origin: 0 50%;
+   transition-property: transform;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+ }
+
+ .menu-tab:hover:before, .menu-tab:focus:before, .menu-tab:active:before {
+   transform: scaleX(1);
+ }
